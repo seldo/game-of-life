@@ -3,6 +3,12 @@
  *
  * Accepts multi-line input on stdin to generate a starting state for a board,
  * runs multiple iterations, ends by outputting the final state of the board.
+ *
+ * Run with:
+ * cat inputfile.txt | node life.js
+ *
+ * To get friendly in-progress output, turn on debug mode with
+ * export DEBUG=true
  */
 
 var readBoard = function(data) {
@@ -14,27 +20,35 @@ var readBoard = function(data) {
   var width = dimensions[0]
   var height = dimensions[1]
 
-  console.log("Board is " + width + " by " + height + ", " + iterations + " iterations")
+  debug("Board is " + width + " by " + height + ", " + iterations + " iterations")
 
   var board = parseBoard(lines.slice(2))
   var newBoard = []
 
-  // TODO: verify dimensions of the board. Do we assume missing spaces to be
-  // zero, or should we throw an error?
+  // some validity checking
+  if (board.length != height) {
+    throw new Error("Height of input is " + board.length + ", does not match specification of " + height)
+  }
+  if (board[0].length != width) {
+    throw new Error("Width of input is " + board[0].length + ", does not match specification of " + width)
+  }
 
   for(var n = 0; n < iterations; n++) {
-    console.log("n = " + n)
-    outputBoard(board)
+    if (isDebug()) {
+      console.log("n = " + n)
+      outputBoard(board)
+      console.log("")
+    }
     for(var y = 0; y < height; y++) {
       newBoard[y] = [] // initialize/clear
       for(var x = 0; x < width; x++) {
         newBoard[y][x] = aliveOrDead(x,y,board,width,height)
       }
     }
-    board = newBoard.slice(0)
+    board = newBoard.slice(0) // clones the array, necessary to avoid colliding on the next loop
   }
 
-  console.log("Final output:")
+  debug("Final output:")
   outputBoard(board)
 
 }
@@ -61,16 +75,9 @@ var aliveOrDead = function(x,y,board,width,height) {
         checkX = 0
       }
 
-      /*
-      if (typeof(board[checkY][checkX]) == 'undefined') {
-        console.log("Got undefined for board at x=" + checkX + ", y=" + checkY)
-        console.log(board)
-      }
-      */
       total += parseInt(board[checkY][checkX])
     }
   }
-  //console.log("Score for X=" + x + ", Y=" + y + " is " + total)
   if (total == 3) return 1
   else return 0
 }
@@ -87,11 +94,19 @@ var parseBoard = function(lines) {
   return board;
 }
 
+// turn the board array into output
 var outputBoard = function(board) {
   board.forEach(function(line,i1) {
     console.log(line.join(' '))
   })
-  console.log("")
+}
+
+// make debugging easier
+var debug = function(str) {
+  if (isDebug()) console.log(str)
+}
+var isDebug = function() {
+  return (process.env['DEBUG'] == 'true')
 }
 
 // read stdin and get cracking

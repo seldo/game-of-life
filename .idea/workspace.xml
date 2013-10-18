@@ -4,7 +4,7 @@
     <list default="true" id="72e90c1d-82ee-44df-b9b5-ba54e57b7fbd" name="Default" comment="" />
     <ignored path="nomic.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/life.js" changelist="72e90c1d-82ee-44df-b9b5-ba54e57b7fbd" time="1382120461209" ignored="false" />
+    <file path="/life.js" changelist="72e90c1d-82ee-44df-b9b5-ba54e57b7fbd" time="1382122675246" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,7 +27,52 @@
       <file leaf-file-name="life.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/life.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="93" column="17" selection-start="2433" selection-end="2433" vertical-scroll-proportion="0.82848233">
+            <state line="8" column="32" selection-start="234" selection-end="234" vertical-scroll-proportion="0.125">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="in.txt" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/08/in.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="5" selection-start="7" selection-end="7" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="in.txt" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/04/in.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="8" selection-start="0" selection-end="55" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="in.txt" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/05/in.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="1" selection-start="1" selection-end="1" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="in.txt" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/07/in.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="41" column="199" selection-start="8008" selection-end="8008" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="in.txt" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/06/in.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="4" selection-start="6" selection-end="6" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -36,16 +81,7 @@
       <file leaf-file-name="in.txt" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/03/in.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="27" selection-start="56" selection-end="56" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="spec.txt" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spec.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="0" selection-start="1908" selection-end="1942" vertical-scroll-proportion="0.0">
+            <state line="6" column="9" selection-start="56" selection-end="56" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -63,7 +99,7 @@
       <file leaf-file-name="in.txt" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/02/in.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="1" selection-start="20" selection-end="20" vertical-scroll-proportion="0.0">
+            <state line="0" column="1" selection-start="1" selection-end="1" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -91,9 +127,15 @@
         <option value="$PROJECT_DIR$/spec.txt" />
         <option value="$PROJECT_DIR$/tests/01/in.txt" />
         <option value="$PROJECT_DIR$/tests/01/out.txt" />
-        <option value="$PROJECT_DIR$/tests/02/in.txt" />
-        <option value="$PROJECT_DIR$/life.js" />
         <option value="$PROJECT_DIR$/tests/03/in.txt" />
+        <option value="$PROJECT_DIR$/tests/04/in.txt" />
+        <option value="$PROJECT_DIR$/tests/02/in.txt" />
+        <option value="$PROJECT_DIR$/tests/02/out.txt" />
+        <option value="$PROJECT_DIR$/tests/05/in.txt" />
+        <option value="$PROJECT_DIR$/tests/06/in.txt" />
+        <option value="$PROJECT_DIR$/tests/07/in.txt" />
+        <option value="$PROJECT_DIR$/life.js" />
+        <option value="$PROJECT_DIR$/tests/08/in.txt" />
       </list>
     </option>
   </component>
@@ -144,6 +186,96 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="nomic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nomic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nomic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tests" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="08" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nomic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nomic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tests" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="07" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nomic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nomic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tests" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="06" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nomic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nomic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tests" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="05" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nomic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nomic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tests" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="04" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -216,6 +348,7 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/tests" />
+      <recent name="$PROJECT_DIR$/tests/04" />
     </key>
   </component>
   <component name="RunManager">
@@ -328,6 +461,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/tests/03/in.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="9" selection-start="56" selection-end="56" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/02/in.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="1" selection-start="1" selection-end="1" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/tests/01/out.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="0" selection-start="12" selection-end="12" vertical-scroll-proportion="0.0">
@@ -342,23 +489,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/02/in.txt">
+    <entry file="file://$PROJECT_DIR$/tests/05/in.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="1" selection-start="20" selection-end="20" vertical-scroll-proportion="0.0">
+        <state line="0" column="1" selection-start="1" selection-end="1" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/03/in.txt">
+    <entry file="file://$PROJECT_DIR$/tests/04/in.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="27" selection-start="56" selection-end="56" vertical-scroll-proportion="0.0">
+        <state line="4" column="8" selection-start="0" selection-end="55" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/06/in.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="4" selection-start="6" selection-end="6" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/07/in.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="199" selection-start="8008" selection-end="8008" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/08/in.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="5" selection-start="7" selection-end="7" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/life.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="93" column="17" selection-start="2433" selection-end="2433" vertical-scroll-proportion="0.82848233">
+        <state line="8" column="32" selection-start="234" selection-end="234" vertical-scroll-proportion="0.125">
           <folding />
         </state>
       </provider>

@@ -1,0 +1,59 @@
+Welcome to Nomic's coding workout!
+
+We think it's a fun exercise, and hope you do, too. We are interested in conciseness and clarity, so aim for what you consider to be a simple solution. Clear trumps clever.
+
+If you have any questions, please do not hesitate to ask. Since you're reading this, please respond back to acknowledge receipt before getting started :)
+
+------
+
+Without further adieu, lets get to your challenge: build Conways' "Game of Life". In case you're unfamiliar, here is a short (optional) video describing the game:
+
+http://www.youtube.com/watch?v=XcuBvj0pw-E&noredirect=1
+
+As you can see, the Game of Life is a simple discrete simulation on a regular grid. It is governed by two rules:
+
+1. An empty square "comes to life" if it is adjacent to exactly three live squares
+
+2. A live square "dies" if it has less than two live neighbors, or more than three live neighbors
+
+However, in our version of the problem, the grid is finite, and the cells "wrap around". That means that on an n-by-n grid, the nth cell is always neighbors with the first cell. In the following example, the characters in bold would all be neighbors of x:
+
+> **h** 0 **f** **g**
+> 0 0 0 0
+> **c** 0 **a** **b**
+> **e** 0 **d** x
+
+Your simulation should be a command-line program that takes input from stdin and writes to stdout.  We welcome more interesting interfaces, but please do include a basic stdin/stdout interface so that we can plug your code into our test harness.
+
+The input data will be in the following format:
+
+> n
+> w h
+> \<line\>
+> \<line\>
+> \<EOF\>
+
+Where n is the number of iterations to run the simulation, w is the width (number of columns) and h is the height (number of rows) of the input data. Each line will consist of w characters, delimited by spaces. Each character in the line will either be 0 or 1, where 0 indicates a dead cell and 1 indicates a live cell.
+
+Here is an example input:
+
+> 14
+> 3 3
+> 0 0 0
+> 0 1 0
+> 0 0 0
+
+For this example, your program would run the simulation for 14 iterations on the given 3-by-3 grid.
+
+When your program is done, it should write the current state of the board to stdout. For the previous example, it would write the following output:
+
+> 0 0 0
+> 0 0 0
+> 0 0 0
+
+You may implement your solution in the language of your choosing. Please send us whatever you have at the 2-hour mark, but you're welcome to keep working on it as long as you want, and to send us your final solution.
+
+If you have any questions, just send us an email! We want you to succeed on this problem, and we wish you the best of luck.
+
+Cheers,
+All of us at Nomic

@@ -78,8 +78,18 @@ var aliveOrDead = function(x,y,board,width,height) {
       total += parseInt(board[checkY][checkX])
     }
   }
-  if (total == 3) return 1
-  else return 0
+  // are you yourself alive?
+  if (board[y][x] == 1) {
+	if (total < 2 || total > 3) {
+		return 0;
+	} else {
+		return 1;
+	}
+  } else {
+	// currently dead
+	if (total == 3) return 1
+	else return 0
+  }
 }
 
 // turn the input into our board array
